@@ -1,0 +1,13 @@
+@import './variable.scss';
+
+.btnPrimary {
+    padding: 10px 30px;
+    color: #fff;
+    background: $primary-color;
+    border: none;
+    border-radius: 6px;
+    &:hover {
+        background: $secondary-color;
+        cursor: pointer;
+    }
+}
