@@ -3,11 +3,9 @@ import { AboutTypes } from "@/types"
 
 const TextAbout: FC<AboutTypes> = ({children}) => {
     return (
-        <>
-            <div>
-                {children}
-            </div>
-        </>
+        <div>
+            {children}
+        </div>
     )
 }
 
